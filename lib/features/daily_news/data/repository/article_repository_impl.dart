@@ -4,6 +4,7 @@ import 'package:news_paper_app/features/daily_news/domain%20/entities/articles.d
 import 'package:news_paper_app/features/daily_news/domain%20/repository/article_repository.dart';
 
 class ArticleRepositoryImpl implements ArticleRepository {
+  @override
   Future<DataState<List<ArticleModel>>> getNewsArticles() {
     throw UnimplementedError();
   }
